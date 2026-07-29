@@ -16,9 +16,6 @@ jenkins:
         - id: "nasso"
           name: "Nassim"
           password: "${USER_NASSO_PASSWORD}"
-        - id: "victor"
-          name: "victor"
-          password: "9T7*iUJ@qd!K_E$"
   authorizationStrategy:
     roleBased:
       roles:
@@ -29,7 +26,6 @@ jenkins:
               - "Overall/Administer"
             entries:
               - user: "chocolateen"
-              - user: "victor"
           - name: "ape"
             description: "Pedagogical team member"
             permissions:
